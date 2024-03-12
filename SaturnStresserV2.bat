@@ -24,7 +24,6 @@ set t=[40m
 set bo=[01m
 set y1=[33m
 set y2=[93m
-title DeltaLookup Tool v.2.1 by @zyxcompare
 color e
 title Made by @zyxcompare
 mode con cols=130 lines=38
