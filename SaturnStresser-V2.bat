@@ -1,4 +1,3 @@
-
 :iplook
 @echo off
 if not "%1"=="am_admin" (powershell start -verb runas '%0' am_admin & exit /b)
@@ -73,74 +72,65 @@ echo ================================
 :d
 echo ==================================
 :x
-ping  -l 9999 -w 10 -n 1 %var% | FIND "TTL="
+ping  -l 20000 -w 1 -n 1 %var% | FIND "TTL="
 IF ERRORLEVEL 1 goto f
-color 5
-ping  -l 1250 -w 1 -n 1 %var% | FIND "TTL="
+ping  -l 15000 -w 1 -n 1 %var% | FIND "TTL="
 IF ERRORLEVEL 1 goto f
-ping  -l 1250 -w 1 -n 1 %var% | FIND "TTL="
+ping  -l 9999 -w 1 -n 1 %var% | FIND "TTL="
 IF ERRORLEVEL 1 goto f
-ping  -l 1250 -w 1 -n 1 %var% | FIND "TTL="
+ping  -l 20000 -w 1 -n 1 %var% | FIND "TTL="
 IF ERRORLEVEL 1 goto f
-ping  -l 1250 -w 1 -n 1 %var% | FIND "TTL="
+ping  -l 15000 -w 1 -n 1 %var% | FIND "TTL="
 IF ERRORLEVEL 1 goto f
-ping  -l 1250 -w 1 -n 1 %var% | FIND "TTL="
+ping  -l 9999 -w 1 -n 1 %var% | FIND "TTL="
 IF ERRORLEVEL 1 goto f
-ping  -l 1250 -w 1 -n 1 %var% | FIND "TTL="
+ping  -l 20000 -w 1 -n 1 %var% | FIND "TTL="
 IF ERRORLEVEL 1 goto f
-ping  -l 1250 -w 1 -n 1 %var% | FIND "TTL="
+ping  -l 15000 -w 1 -n 1 %var% | FIND "TTL="
 IF ERRORLEVEL 1 goto f
-ping  -l 1250 -w 1 -n 1 %var% | FIND "TTL="
+ping  -l 9999 -w 1 -n 1 %var% | FIND "TTL="
 IF ERRORLEVEL 1 goto f
-ping  -l 1250 -w 1 -n 1 %var% | FIND "TTL="
+ping  -l 20000 -w 1 -n 1 %var% | FIND "TTL="
 IF ERRORLEVEL 1 goto f
-ping  -l 1250 -w 1 -n 1 %var% | FIND "TTL="
+ping  -l 15000 -w 1 -n 1 %var% | FIND "TTL="
 IF ERRORLEVEL 1 goto f
-ping  -l 1250 -w 1 -n 1 %var% | FIND "TTL="
+ping  -l 9999 -w 1 -n 1 %var% | FIND "TTL="
 IF ERRORLEVEL 1 goto f
-ping  -l 1250 -w 1 -n 1 %var% | FIND "TTL="
+ping  -l 20000 -w 1 -n 1 %var% | FIND "TTL="
 IF ERRORLEVEL 1 goto f
-ping  -l 1250 -w 1 -n 1 %var% | FIND "TTL="
+ping  -l 15000 -w 1 -n 1 %var% | FIND "TTL="
 IF ERRORLEVEL 1 goto f
-ping  -l 1250 -w 1 -n 1 %var% | FIND "TTL="
+ping  -l 9999 -w 1 -n 1 %var% | FIND "TTL="
 IF ERRORLEVEL 1 goto f
-ping  -l 1250 -w 1 -n 1 %var% | FIND "TTL="
+ping  -l 20000 -w 1 -n 1 %var% | FIND "TTL="
 IF ERRORLEVEL 1 goto f
-ping  -l 1250 -w 1 -n 1 %var% | FIND "TTL="
+ping  -l 15000 -w 1 -n 1 %var% | FIND "TTL="
 IF ERRORLEVEL 1 goto f
-ping  -l 1250 -w 1 -n 1 %var% | FIND "TTL="
+ping  -l 9999 -w 1 -n 1 %var% | FIND "TTL="
 IF ERRORLEVEL 1 goto f
-ping  -l 1250 -w 1 -n 1 %var% | FIND "TTL="
+ping  -l 20000 -w 1 -n 1 %var% | FIND "TTL="
 IF ERRORLEVEL 1 goto f
-ping  -l 1250 -w 1 -n 1 %var% | FIND "TTL="
+ping  -l 15000 -w 1 -n 1 %var% | FIND "TTL="
 IF ERRORLEVEL 1 goto f
-ping  -l 1250 -w 1 -n 1 %var% | FIND "TTL="
+ping  -l 9999 -w 1 -n 1 %var% | FIND "TTL="
 IF ERRORLEVEL 1 goto f
-ping  -l 1250 -w 1 -n 1 %var% | FIND "TTL="
+ping  -l 20000 -w 1 -n 1 %var% | FIND "TTL="
 IF ERRORLEVEL 1 goto f
-ping  -l 1250 -w 1 -n 1 %var% | FIND "TTL="
+ping  -l 15000 -w 1 -n 1 %var% | FIND "TTL="
 IF ERRORLEVEL 1 goto f
-ping  -l 1250 -w 1 -n 1 %var% | FIND "TTL="
+ping  -l 9999 -w 1 -n 1 %var% | FIND "TTL="
 IF ERRORLEVEL 1 goto f
-ping  -l 1250 -w 1 -n 1 %var% | FIND "TTL="
+ping  -l 20000 -w 1 -n 1 %var% | FIND "TTL="
 IF ERRORLEVEL 1 goto f
-ping  -l 1250 -w 1 -n 1 %var% | FIND "TTL="
+ping  -l 15000 -w 1 -n 1 %var% | FIND "TTL="
 IF ERRORLEVEL 1 goto f
-ping  -l 1250 -w 1 -n 1 %var% | FIND "TTL="
+ping  -l 9999 -w 1 -n 1 %var% | FIND "TTL="
 IF ERRORLEVEL 1 goto f
-ping  -l 1250 -w 1 -n 1 %var% | FIND "TTL="
+ping  -l 20000 -w 1 -n 1 %var% | FIND "TTL="
 IF ERRORLEVEL 1 goto f
-ping  -l 1250 -w 1 -n 1 %var% | FIND "TTL="
+ping  -l 15000 -w 1 -n 1 %var% | FIND "TTL="
 IF ERRORLEVEL 1 goto f
-ping  -l 1250 -w 1 -n 1 %var% | FIND "TTL="
-IF ERRORLEVEL 1 goto f
-ping  -l 1250 -w 1 -n 1 %var% | FIND "TTL="
-IF ERRORLEVEL 1 goto f
-ping  -l 1250 -w 1 -n 1 %var% | FIND "TTL="
-IF ERRORLEVEL 1 goto f
-ping  -l 1250 -w 1 -n 1 %var% | FIND "TTL="
-IF ERRORLEVEL 1 goto f
-ping  -l 1250 -w 1 -n 1 %var% | FIND "TTL="
+ping  -l 9999 -w 1 -n 1 %var% | FIND "TTL="
 IF ERRORLEVEL 1 goto f
 color e
 cls
