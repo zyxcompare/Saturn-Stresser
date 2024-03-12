@@ -7,6 +7,6 @@
 [+] Sends up to 10k Bytes
 
 - - - - - - - - - - - - - -
-[?] Still In Development
+[>] Still In Development
 
-[?] Some IP's may not work.
+[>] Some IP's may not work.
